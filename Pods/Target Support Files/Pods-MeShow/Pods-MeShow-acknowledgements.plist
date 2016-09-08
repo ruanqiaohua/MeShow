@@ -231,7 +231,7 @@ THE SOFTWARE.
       same "printed page" as the copyright notice for easier
       identification within third-party archives.
 
-   Copyright 2015 Pili.io Engineering
+   Copyright 2015 Pili Engineering, Qiniu Inc.
 
    Licensed under the Apache License, Version 2.0 (the "License");
    you may not use this file except in compliance with the License.
@@ -244,16 +244,15 @@ THE SOFTWARE.
    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
    See the License for the specific language governing permissions and
    limitations under the License.
-
 </string>
 			<key>Title</key>
-			<string>PLPlayerKit</string>
+			<string>PLMediaStreamingKit</string>
 			<key>Type</key>
 			<string>PSGroupSpecifier</string>
 		</dict>
 		<dict>
 			<key>FooterText</key>
-			<string>                                 Apache License
+			<string>Apache License
                            Version 2.0, January 2004
                         http://www.apache.org/licenses/
 
@@ -441,7 +440,7 @@ THE SOFTWARE.
       same "printed page" as the copyright notice for easier
       identification within third-party archives.
 
-   Copyright @2015 Pili Engineering
+   Copyright 2015 Pili.io Engineering
 
    Licensed under the Apache License, Version 2.0 (the "License");
    you may not use this file except in compliance with the License.
@@ -457,7 +456,7 @@ THE SOFTWARE.
 
 </string>
 			<key>Title</key>
-			<string>PLStreamingKit</string>
+			<string>PLPlayerKit</string>
 			<key>Type</key>
 			<string>PSGroupSpecifier</string>
 		</dict>

@@ -1,31 +1,39 @@
 PODS:
-  - HappyDNS (0.3.7)
-  - pili-librtmp (1.0.3)
-  - PLPlayerKit (2.2.1):
-    - HappyDNS
-    - pili-librtmp
-    - PLPlayerKit/precompiled (= 2.2.1)
-  - PLPlayerKit/precompiled (2.2.1):
-    - HappyDNS
-    - pili-librtmp
-  - PLStreamingKit (1.2.4):
-    - HappyDNS
-    - pili-librtmp
-    - PLStreamingKit/precompiled (= 1.2.4)
-  - PLStreamingKit/precompiled (1.2.4):
-    - HappyDNS
-    - pili-librtmp
+  - HappyDNS (0.3.10)
+  - pili-librtmp (1.0.4)
+  - PLMediaStreamingKit (2.1.1):
+    - HappyDNS (~> 0.3.0)
+    - pili-librtmp (= 1.0.4)
+    - PLMediaStreamingKit/Common (= 2.1.1)
+    - PLMediaStreamingKit/PLCameraStreamingKit (= 2.1.1)
+    - PLMediaStreamingKit/PLStreamingKit (= 2.1.1)
+  - PLMediaStreamingKit/Common (2.1.1):
+    - HappyDNS (~> 0.3.0)
+    - pili-librtmp (= 1.0.4)
+  - PLMediaStreamingKit/PLCameraStreamingKit (2.1.1):
+    - HappyDNS (~> 0.3.0)
+    - pili-librtmp (= 1.0.4)
+  - PLMediaStreamingKit/PLStreamingKit (2.1.1):
+    - HappyDNS (~> 0.3.0)
+    - pili-librtmp (= 1.0.4)
+  - PLPlayerKit (2.2.4):
+    - HappyDNS (~> 0.3.10)
+    - pili-librtmp (= 1.0.4)
+    - PLPlayerKit/precompiled (= 2.2.4)
+  - PLPlayerKit/precompiled (2.2.4):
+    - HappyDNS (~> 0.3.10)
+    - pili-librtmp (= 1.0.4)
 
 DEPENDENCIES:
+  - PLMediaStreamingKit
   - PLPlayerKit
-  - PLStreamingKit
 
 SPEC CHECKSUMS:
-  HappyDNS: ec476226e119bf4766b74975ec4873f6fa078cf2
-  pili-librtmp: 50faa17413c635cca5ceccb1a8f9f6acc6587a45
-  PLPlayerKit: d0b902dccfbbc39519096b4f86e4e393c5f87bc3
-  PLStreamingKit: c8574decbacb981e36e5b95314c991a3b5d02125
+  HappyDNS: 06a9fed2796663fd87626dbf02552933265bf059
+  pili-librtmp: bc768bc3971edad732fd5e66f0ee991fa1a0a257
+  PLMediaStreamingKit: 64d4416ad8a39b3e63515cea52face395d048614
+  PLPlayerKit: 30e419fa90e84df34922e6dd5d5833d7e4348bf4
 
-PODFILE CHECKSUM: 71582a37a7a506b6c6229a925a9379e9864e05f9
+PODFILE CHECKSUM: b87ee227e9185cbcd99998444208359a8fda6229
 
 COCOAPODS: 1.0.1

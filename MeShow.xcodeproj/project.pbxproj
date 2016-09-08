@@ -10,11 +10,12 @@
 		7FB12E6F53BEF96BD25124B1 /* Pods_MeShow.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57EBB158D127E954860070F3 /* Pods_MeShow.framework */; };
 		F15E67311D816C5B008BE40C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F15E67301D816C5B008BE40C /* main.m */; };
 		F15E67341D816C5B008BE40C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F15E67331D816C5B008BE40C /* AppDelegate.m */; };
-		F15E67371D816C5B008BE40C /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F15E67361D816C5B008BE40C /* FirstViewController.m */; };
 		F15E673A1D816C5B008BE40C /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F15E67391D816C5B008BE40C /* SecondViewController.m */; };
 		F15E673D1D816C5C008BE40C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F15E673B1D816C5C008BE40C /* Main.storyboard */; };
 		F15E673F1D816C5C008BE40C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F15E673E1D816C5C008BE40C /* Assets.xcassets */; };
 		F15E67421D816C5C008BE40C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F15E67401D816C5C008BE40C /* LaunchScreen.storyboard */; };
+		F15E674B1D81B1EC008BE40C /* PLViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F15E674A1D81B1EC008BE40C /* PLViewController.m */; };
+		F15E674E1D81B206008BE40C /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = F15E674D1D81B206008BE40C /* Reachability.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,14 +26,16 @@
 		F15E67301D816C5B008BE40C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		F15E67321D816C5B008BE40C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		F15E67331D816C5B008BE40C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		F15E67351D816C5B008BE40C /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
-		F15E67361D816C5B008BE40C /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
 		F15E67381D816C5B008BE40C /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
 		F15E67391D816C5B008BE40C /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
 		F15E673C1D816C5C008BE40C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F15E673E1D816C5C008BE40C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F15E67411D816C5C008BE40C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F15E67431D816C5C008BE40C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F15E67491D81B1EC008BE40C /* PLViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PLViewController.h; sourceTree = "<group>"; };
+		F15E674A1D81B1EC008BE40C /* PLViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PLViewController.m; sourceTree = "<group>"; };
+		F15E674C1D81B206008BE40C /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
+		F15E674D1D81B206008BE40C /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,10 +82,12 @@
 			children = (
 				F15E67321D816C5B008BE40C /* AppDelegate.h */,
 				F15E67331D816C5B008BE40C /* AppDelegate.m */,
-				F15E67351D816C5B008BE40C /* FirstViewController.h */,
-				F15E67361D816C5B008BE40C /* FirstViewController.m */,
 				F15E67381D816C5B008BE40C /* SecondViewController.h */,
 				F15E67391D816C5B008BE40C /* SecondViewController.m */,
+				F15E67491D81B1EC008BE40C /* PLViewController.h */,
+				F15E674A1D81B1EC008BE40C /* PLViewController.m */,
+				F15E674C1D81B206008BE40C /* Reachability.h */,
+				F15E674D1D81B206008BE40C /* Reachability.m */,
 				F15E673B1D816C5C008BE40C /* Main.storyboard */,
 				F15E673E1D816C5C008BE40C /* Assets.xcassets */,
 				F15E67401D816C5C008BE40C /* LaunchScreen.storyboard */,
@@ -231,8 +236,9 @@
 			files = (
 				F15E673A1D816C5B008BE40C /* SecondViewController.m in Sources */,
 				F15E67341D816C5B008BE40C /* AppDelegate.m in Sources */,
-				F15E67371D816C5B008BE40C /* FirstViewController.m in Sources */,
 				F15E67311D816C5B008BE40C /* main.m in Sources */,
+				F15E674E1D81B206008BE40C /* Reachability.m in Sources */,
+				F15E674B1D81B1EC008BE40C /* PLViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -348,6 +354,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = MeShow/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ruanqiaohua.MeShow;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -360,6 +367,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = MeShow/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ruanqiaohua.MeShow;
 				PRODUCT_NAME = "$(TARGET_NAME)";
